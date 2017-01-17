@@ -1,0 +1,90 @@
+/*GENERAL LAYOUT*/
+
+/*global hide */
+/*hide base menu + product_summery +  user_summery  +  category_summery + statistic summery */
+.products_list, .userList, li.small-menu>ul>li, .category_list, .summery table, .menu_cms>ul>li {
+    display: none ;
+}
+
+/*body font-size*/
+body {
+    font-size: 12px;
+}
+
+/*menu tab layout*/
+li.small-menu {
+    display: block !important;
+    border-top: 1px solid #444;
+    width: 40%;
+    cursor: pointer;
+    height: 2.2em;
+    font-size: 1.8em;
+    position: relative;
+    z-index: 30;
+    color: red;
+    border-radius: 10px;
+}
+
+/*menu tab tabs */
+li.small-menu>ul>li {
+    position: relative;
+    z-index: 30;
+}
+
+/*menu tab small tab wrapper*/
+li.small-menu ul {
+    border: 1px solid #444;
+    background-color: rgb(24, 24, 24);
+    border-top: none;
+    min-height: 0.8em;
+    margin: 0px auto;
+    font-size: 1.1em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*colapse the menu bar and change his layout*/
+div.menu_cms > ul > li > a {
+    display: block;
+    margin: -3.9px auto;
+    text-align: center;
+    width: 80%;
+    border: 3px solid #444;
+    font-size: 1.5em !important;
+    min-width: 200px;
+    border-radius: 10px;
+    padding: 0.8em;
+    min-height: 3.4em;
+}
+
+/*PRODUCT MANAGEMENT*/
+
+/*colapse the categories and change there layout*/
+div.cms-items>div.category {
+    min-width: 100px !important;
+    margin: 3.6% 1.5%;
+    width: 46%;
+    max-width:70%;
+    float: left;
+}
+
+/*CATEGORY MANAGEMENT*/
+
+/*create edit tab layouts*/
+div.create_form-style > form > div.upload,
+div.create_form-style > form > div.stock-info,
+div.create_form-style > form > div.product-basic-info,
+div.create_form-style > form > label,
+div.edit_form-style > form > div.upload,
+div.edit_form-style > form > div.stock-info,
+div.edit_form-style > form > div.product-basic-info,
+div.description, .product-info {
+    margin: 1.4em 4.5%;
+    width: 40%;
+}
+
+/*product summery*/
+.product-info {
+    width: 88.3%;
+}
+

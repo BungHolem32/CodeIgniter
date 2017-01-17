@@ -1,0 +1,131 @@
+/*GENERAL LAYOUT*/
+/*font-size*/
+body {
+    font-size: 13px;
+}
+
+/*PRODUCT MANAGEMENT*/
+/*product edit + product create */
+.create_form-style div,
+.edit_form-style div,
+.create_form-style label{
+    float: none !important;
+    margin: 2em auto !important;
+    width: 70% !important;
+}
+
+/*container wrapper */
+.container {
+    min-width: 400px !important;
+}
+
+/*select box */
+select.select-box_product {
+    width: 65% !important;
+    background-color: transparent;
+    color: red;
+    border: none;
+    box-shadow: 0 0 1px 1px gray;
+    text-align: center !important;
+    display: block;
+    border-radius: 0.5em;
+    text-indent: 42%;
+    opacity: 1;
+}
+
+/*small menu */
+li.small-menu {
+    font-size: 1.5em;
+    color: red;
+    width: 42%;
+}
+
+li.small-menu li {
+    margin-top: 0.5em;
+}
+
+/*small menu tabs */
+li.small-menu>ul>li {
+    z-index: 30;
+}
+
+/*submit tab edit + create form*/
+input[type="submit"] {
+    width: 30% !important;
+}
+
+/*text area regular on mobile*/
+textarea {
+    display: block !important;
+    width:100%;
+}
+/*hide wiziwig*/
+div#mceu_44,
+div#mceu_75,
+div#mceu_106,
+div#mceu_13 {
+    display: none !important;
+}
+
+/*category wrapper for product management */
+div.cms-items>div.category {
+    float: none !important;
+    margin: 3.6% auto;
+    width: 80%;
+}
+
+/*create edit category && user layout*/
+.create-category,
+.delete-category,
+.edit-category,
+.user_managment.addUser.title_font,
+.user_managment.editUser.title_font,
+.user_managment.delUser.title_font {
+    float: none;
+    margin: 10.9% auto;
+    width: 80%;
+}
+
+/*ORDER SUMMERY PAGE*/
+
+/*user order list wrapper*/
+.user_order > ul {
+    min-width: 300px !important;
+    margin: 3em auto;
+}
+
+/*div wrapper */
+div.user_order ul>li {
+    margin: 0 auto;
+    margin-bottom: 1.8em;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+/*specific attribute for orders (product , quantity etc)*/
+div.user_order div {
+    float: none;
+    width: 100%;
+}
+
+/*hide title description in mobile view*/
+ul.header-titles-order {
+    display: none;
+}
+
+/*scale order wrapper :  hover */
+div.user_order ul:hover {
+    transform: scale(1.01);
+}
+
+/*description attribute in mobile view */
+span.desc_order_mobile {
+    color: gray;
+    display: block;
+}
+
+/*date attribute*/
+.user_order div.centered.date {
+    top: 1.9em;
+    font-size: 1.3em;
+}

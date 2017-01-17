@@ -1,0 +1,34 @@
+//	public function prepare_session($input)
+//	{
+//		$setSessionArray = [];
+//
+//		foreach ($input as $key => $value) {
+//			$setSessionArray[$key] = $value;
+//		}
+//		die_r($setSessionArray);
+//	}
+//
+//	public function is_unique($server_category, $user_category)
+//	{
+//		$same = array();
+//
+//		foreach ($server_category as $skey => $svalue) {
+//			foreach ($user_category as $ukey => $uvalue) {
+//				if ($skey == 'select-box' || $ukey == 'select-box') {
+//					continue;
+//				}
+//				if ($svalue == $uvalue) {
+//					if (!in_array($skey, $same))
+//						$same[$ukey] = $uvalue;
+//				}
+//
+//			}
+//		}
+//		return true;
+//	}
+
+//			$needle['key'] = ['_edit,_add', '_create','ies','s'];
+//			$needle['value'] = ['','','','y',''];
+//				$key = str_replace($needle['key'],$needle['value'], $parameters['table']_key);
+
+

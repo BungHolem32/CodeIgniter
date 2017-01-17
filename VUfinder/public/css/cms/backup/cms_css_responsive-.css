@@ -1,0 +1,853 @@
+/*html + body min Height*/
+html, body {
+    min-height : 100%;
+}
+
+/*general body*/
+body {
+    margin   : 0;
+    padding  : 0;
+    position : relative;
+}
+
+.x_icon {
+    margin-top: 0.3%;
+    position: static;
+}
+
+/*div container Fluid*/
+div.container-fluid {
+    bottom   : 0;
+    height   : 100%;
+    margin   : 0;
+    padding  : 0;
+    position : relative;
+    width    : 100%;
+}
+
+/* container */
+div.container {
+    border-radius : 0.5%;
+    box-sizing    : border-box;
+    height        : auto;
+    margin        : 2% auto;
+    min-width     : 86%;
+    padding-top   : 1em;
+    position      : relative;
+    width         : 80%;
+}
+
+div.menu_cms  li{
+
+}
+
+
+
+div.menu_cms > ul > li > a {
+    color           : white;
+    font-size       : 1.2em !important;
+    text-decoration : none;
+    width           : 10%;
+}
+
+
+/*------==========cms dashboard====---------*/
+
+div.content-cms > input[type='button'] {
+    background    : transparent !important;
+    border-radius : 0.5em;
+    color         : white;
+    font-size     : 2em;
+    margin-left   : 9em;
+    margin-top    : 2em;
+}
+
+
+/*cms-items*/
+div.cms-items {
+    display  : block;
+    height   : 100%;
+    margin   : 0 auto;
+    position : relative;
+    right    : 0;
+    top      : 0;
+    width    : 100%;
+}
+
+
+div.cms-items > h3 {
+    font-size   : 1.5em;
+    margin-left : 37%;
+}
+
+/*button new product*/
+div.cms-items > input {
+    background  : transparent;
+    margin-left : 41em;
+}
+
+/*category wrapper */
+div.category {
+    border-radius : 1em;
+    cursor        : pointer;
+    float         : left;
+    margin        : 3% 3.1%;
+    max-width     : 24%;
+    min-height    : 11em;
+    min-width     : 27%;
+    padding-left  : 1%;
+    padding-right : 1%;
+    position      : relative;
+    transition    : all 1s ease;
+    z-index       : 1;
+}
+
+/*category:hover*/
+div.category:hover {
+    background  : #000000;
+    opacity     : 0.95;
+    transform   : scale(1.1);
+    z-index     : 1;
+    align-items : center;
+}
+
+div.category > h4 {
+    font-size : 2em;
+}
+
+
+/*category li */
+div.category > ul > li {
+    font-size: 1em;
+    letter-spacing : 0.2em;
+}
+
+.edit-btn, .delete-btn {
+    font-size  : 1.1em;
+    transition : all 100ms ease;
+    width      : 3em;
+}
+
+a.edit-btn {
+    color      : lightgreen !important;
+    margin-top : 2em;
+    position   : relative;
+}
+
+
+
+a.create-btn {
+    color           : #bb3300;
+    display         : block;
+    font-size       : 1.2em;
+    text-decoration : none;
+}
+
+.delete-btn:hover {
+    color     : red !important;
+    transform : scale(1.05);
+}
+
+/*input,label,textarea width*/
+input, label, textarea {
+    display    : table;
+    margin     : 1em auto;
+    text-align : center;
+}
+
+.user_managment form label {
+    padding: 0 !important;
+}
+
+
+
+
+/*------------==========delete form=====-------*/
+
+
+div.delete-form-style  [type='submit'],
+div.delete-form-style  [type='button'],
+div.edit-category [type='submit'],
+div.editUser [type='submit'],
+div.addUser  [type='submit'],
+div.delUser  [type='submit'],
+.create_submit,
+a.select
+{
+    border-radius : 0.5em;
+    font-size     : 1.4em;
+    position      : relative;
+    transition    : all 1s ease;
+    width: 5em;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    background: transparent;
+    color: white;
+    margin-bottom: 1em;
+}
+a.select{
+    border:2px solid #444444;
+    margin: 1em;
+}
+
+div.delete-form-style  input[type='submit']:hover,
+div.delete-form-style  input[type='button']:hover,
+div.edit-category [type='submit']:hover,
+div.editUser [type='submit']:hover,
+div.addUser  [type='submit']:hover,
+div.delUser  [type='submit']:hover,
+input.create_submit:hover,
+a.select:hover{
+    transform: scale(1.05);
+}
+
+
+div.edit_form-style.centered form select.select-box_product {
+    width: 15%;
+    height: 1.9em;
+    margin-top: -1.3em;
+}
+
+input[type='checkbox'] {
+    display    : table;
+    margin     : 1em auto;
+    text-align : center;
+}
+
+/*description input*/
+.description {
+    position : absolute;
+    width    : 100px !important;
+}
+
+
+
+/*------=============order page==========----------*/
+
+
+
+div.orders-form-style > div {
+    display : inline;
+    padding : 1em;
+}
+
+
+
+/*order headers wrapper*/
+ul.header-titles-order {
+    border-radius: 0em;
+    font-size: 1em;
+    padding-bottom: 1em;
+    width          : 100%;
+}
+
+ul.header-titles-order li:nth-of-type(2) {
+    left: -10%;
+}
+
+ul.header-titles-order li:nth-of-type(3) {
+    left: 0%;
+}
+
+ul.header-titles-order li:nth-of-type(5) {
+    left: 7%;
+}
+
+ul.header-titles-order li:nth-of-type(4) {
+    left: 2.4%;
+}
+
+/*headers style*/
+ul.header-titles-order > li {
+    box-sizing : border-box;
+    display    : inline;
+    font-size  : 1.2em;
+    margin     : 0 auto;
+    position   : relative;
+    width      : 100%;
+}
+
+ul.header-titles-order li:first-of-type {
+    left     : -12%;
+    position : relative;
+}
+
+.fixed-top {
+    background: #cccccc  !important;
+    font-size: 1em !important;
+    position   : fixed;
+    padding-top: 0.5em;
+    top        : 0;
+    z-index    : 3;
+    right: 0;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(4) {
+    left: -1.1%;
+    position : relative;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(2) {
+    left: -5.5%;
+    position : relative;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(5) {
+    left: -0.1%;
+    position : relative;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(3) {
+    left: -0.8%;
+    position : relative;
+}
+
+ul.header-titles-order.fixed-top li:first-of-type {
+    left: -6.3%;
+    position : relative;
+}
+
+
+
+/*order-info */
+.user_order > ul {
+    box-sizing : border-box;
+    display    : table;
+    margin-left: 25%;
+    min-height : 10em;
+    width: 70%;
+    transition: all 1s;
+}
+
+
+/*quantity tab*/
+span.qty {
+    left: 41.3%;
+    position : relative;
+    float: left;
+    width: 20px;
+}
+
+.user_order span.qty,
+.user_order span.price,
+.user_order span.subtotal {
+    margin-top: -1em;
+    text-align: left;
+}
+
+/*price tab*/
+.user_order span.subtotal {
+    position : relative;
+    float: left;
+    left: 91.7%;
+}
+
+
+div.create_form-style > h3,
+div.edit_form-style > h3 {
+    padding    : 1em;
+}
+
+div.create_form-style > form > div > h4,
+div.create_form-style > form > label > div > h4,
+div.edit_form-style > form > div > h4,
+div.edit_form-style > form > label > div > h4, {
+    border-bottom : 0.1em solid white;
+    color         : red;
+    font-size     : 1.4em;
+    margin-left   : 31.5em;
+    margin-top    : 1em;
+    width         : 10em;
+}
+
+div.create_form-style > form > div.upload,
+div.create_form-style > form > div.stock-info,
+div.create_form-style > form > div.product-basic-info,
+div.create_form-style > form > label,
+div.edit_form-style > form > div.upload,
+div.edit_form-style > form > div.stock-info,
+div.edit_form-style > form > div.product-basic-info,
+div.edit_form-style > form > label {
+    border: 2px solid #444444;
+    border-radius : 1em;
+    float         : left;
+    font-size     : 1.3em;
+    margin-left   : 1em;
+    margin-top    : 2em;
+    min-height: 33em;
+    padding       : 2em;
+}
+
+div.create_form-style > form > input[type='submit'],
+div.edit_form-style > form > input[type='submit'] {
+    background : transparent;
+    clear      : both;
+    color      : white;
+    font-size  : 1.5em;
+    position   : relative;
+    text-align : center;
+    top        : 0em;
+    transition : all 300ms ease;
+}
+
+div.create_form-style > form > input[type='submit']:hover,
+div.edit_form-style > form > input[type='submit']:hover {
+    border : 0.2em solid green;
+}
+
+div.create_form-style > form > label,
+div.edit_form-style > form > label {
+    font-weight : lighter;
+    max-height  : 28em;
+}
+
+/*tiny mce textarea*/
+#mceu_13 {
+    clear : both;
+    top   : 1em;
+    width : 30.5em;
+}
+
+
+.overlay {
+    background : #000000;
+    display    : none;
+    height     : 100%;
+    left       : 0;
+    opacity    : 0.8;
+    position   : fixed;
+    top        : 0;
+    width      : 100%;
+    z-index    : 2;
+}
+
+
+div.menu_cms > ul > li > a:hover {
+    border : 0.1em solid red;
+    color  : red;
+}
+
+/*------==========cms dashboard====---------*/
+
+
+/*------------==========delete form=====-------*/
+
+div.delete-form-style > form > input {
+    display : inline;
+}
+
+div.delete-form-style > form > input[type='submit']:hover,
+div.delete-form-style > form > input[type='button']:hover {
+    transform : scale(1.07);
+}
+
+input[type='button'],
+form > select > option,
+form > select {
+    background    : rgb(187, 187, 187);
+    border-radius : 0em;
+    box-shadow    : -0.6px 1px 1px 1px white;
+    clear         : both;
+    color         : black;
+    display       : table;
+    width         : 100%;
+}
+
+.editUser select {
+    width : 32.6%;
+}
+
+.select-category {
+    display   : block;
+    height    : 1.5em;
+    min-width : 90px;
+    margin: 0 auto;
+    width     : 143px;
+}
+
+/*------=============order page==========----------*/
+
+li {
+    box-sizing : border-box;
+    display    : inline;
+    list-style : none;
+    margin     : 0 auto;
+}
+
+.delete-form-style h3 {
+    margin: -0.8em;
+    color: orange !important;
+}
+
+
+.orders-form-style > h3 {
+    top  : 3.5em;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+/*order-info wrapper*/
+div.user_order {
+    margin: 0em;
+}
+
+/*user-name tab*/
+span.user-name {
+    font-size      : 2em;
+    width: 395px;
+    float: left;
+    display: table !important;
+    position: relative;
+    top: 0.5em;
+    color: lightgreen;
+}
+
+/*product name tab*/
+.user_order .product-name {
+    display: table;
+    position : relative;
+    width: 160px;
+    text-align: left;
+}
+
+/*price tab*/
+.user_order span.price {
+    left: 65.1%;
+    position : relative;
+    float: left;
+}
+
+/*feedback*/
+.feedback {
+    height : 50px;
+    width  : 500px;
+}
+/*feedback massages*/
+span.feedback {
+    margin-left : 45em;
+}
+
+/*create product page */
+div.create_form-style,
+div.edit_form-style {
+    border-radius : 1em;
+    margin-top    : -3em;
+    min-width     : 50em;
+}
+
+div.create_form-style  h3,
+div.edit_form-style h3{
+    margin-top: 1.5em;
+}
+
+
+
+div.content-cms .add-category {
+    bottom     : 30.6em;
+    font-size  : 1.5em;
+    margin     : 0 auto;
+    position   : absolute;
+    text-align : center !important;
+    top        : 0em;
+    width      : 100%;
+}
+
+/* create Category */
+
+.content-cms .create-category .error_val {
+    position   : relative;
+    text-align : center;
+}
+
+.create-category, .delete-category, .edit-category {
+    border        : 3px solid #444444;
+    border-radius : 1em;
+    box-sizing    : border-box !important;
+    display       : block;
+    float         : left;
+    margin        : 0 4em 2em;
+    min-height    : 9em;
+    min-width     : 23%;
+    padding       : 1em;
+    position      : relative;
+    transition    : all 1s;
+    width         : 26%;
+}
+
+.create-category > h2, .delete-category > h2, .edit-category > h2 , .editUser>h2, .addUser>h2, .delUser>h2{
+    font-size : 1.8em;
+}
+
+.create-category:hover, .delete-category:hover, .edit-category:hover {
+    border    : 1px solid red !important;
+    transform : scale(1.03);
+    background : black;
+    opacity    : 0.9;
+}
+
+
+form .gender,
+form .role,
+.gender [type='radio']
+{
+    display     : inline-block;
+    margin: 0 auto 0 0.7em;
+    text-align  : center !important;
+}
+
+.gender, .role {
+    display : block !important;
+    margin  : 0 auto !important;
+}
+
+.content-cms .user_managment.addUser, .content-cms .user_managment.editUser, .user_managment.usersSummery, .delUser {
+    border        : 3px solid #444444;
+    border-radius : 1em;
+    display       : block;
+    float         : left;
+    font-size     : 1.2em;
+    margin        : 0 2.7% 3%;
+    margin-bottom: 2em;
+    min-height    : 7em;
+    min-width     : 22%;
+    padding-top   : 1em;
+    position      : relative;
+    transition    : all 1s;
+    width         : 27%;
+    color: lightgray;
+}
+
+.user_managment.usersSummery.title_font {
+    vertical-align : middle;
+}
+
+.user_managment.addUser,  .content-cms .user_managment.editUser {
+    float : left;
+}
+
+.user_managment.addUser.title_font:hover,
+.user_managment.editUser.title_font:hover,
+.user_managment.usersSummery:hover,
+.user_managment.delUser:hover,
+.user_managment.usersSummery table:hover {
+    background   : black;
+    border-color : red;
+    opacity      : 0.9;
+    transform    : scale(1.03);
+}
+
+.role input[type="radio"] {
+    display     : inline;
+    margin-Left : 0.6EM;
+}
+
+.content-cms {
+    display : block;
+    margin  : 0 auto;
+    width   : 100%;
+    text-align: center;
+}
+
+div.content-cms .text-center {
+    margin: 1em 1em 1em 0;
+}
+
+.user_managment.usersSummery td,
+.user_managment.usersSummery th {
+    font-size  : 1em;
+    padding    : 5px 3.6%;
+    text-align : center;
+}
+
+.userSummery table {
+    width : 100%;
+}
+
+.user_managment.usersSummery td {
+    font-size : 0.9em;
+    padding   : 6% 0% 2%;
+}
+
+.user_managment.usersSummery th {
+    text-align : center;
+    width      : 10%;
+}
+
+.usersSummery table {
+    margin-top : 1.6em;
+}
+
+.delUser select {
+    color     : black;
+    display   : block;
+    height    : 1.8em;
+    margin    : 0 auto;
+    min-width : 30%;
+    position  : relative;
+    width     : 40%;
+}
+
+span.centered.date {
+    display: block;
+    width: 57%;
+    margin-left: 30%;
+}
+
+.flashdata {
+    text-align: center;
+    color: lightgreen;
+}
+
+div.delete-form-style table th,div.delete-form-style table td {
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+
+
+.userList table {
+    margin: 0 auto;
+    border: 3px solid #444;
+    margin-bottom: 1.9em;
+    border-radius: 10px !important;
+    display: block;
+    text-align: justify;
+    width: 51.4%;
+    transition: all 1s;
+    color: lightgray;
+}
+
+.userList th {
+    color: lightgreen;
+}
+
+.userList th, .userList td {
+    font-size: 1.3em;
+    padding: 4.7px;
+    text-align: justify;
+    width: 20%;
+}
+
+
+.userList table:hover {
+    transform: scale(1.2);
+    background: black;
+    border: 2px solid red;
+}
+
+.categoryTab {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.categoryTab td:nth-of-type(3) {
+    width: 5% !important;
+}
+
+.categoryTab td:nth-of-type(4) {
+    width: 53% !important;
+}
+
+.categoryTab td:nth-of-type(2) {
+    width: 14.2%;
+}
+
+.categoryTab td:nth-of-type(1) {
+    width: 1.6%;
+}
+
+.categoryTab th, .categoryTab td {
+    font-size: 1.1em;
+    text-align: left;
+    padding: 0.4em;
+}
+
+.categoryTab th {
+    color: lightgreen;
+    text-align: center !important;
+}
+
+
+
+.categoryTab table {
+    margin: 0 auto;
+    display: inline-block;
+    width: 75%;
+    margin-bottom: 1.8em;
+    border: 3px solid #444;
+    border-radius: 23px;
+    padding: 20px 1px 3px;
+    transition: all 1s;
+}
+
+.categoryTab table:hover {
+    border: 3px solid red;
+    background: black;
+    transform: scale(1.1);
+}
+
+
+@media screen and  (min-width : 1200px) and (max-width : 1920px) {
+
+    li {
+        padding : 1.8% !important;
+    }
+
+    ul.header-titles-order > li {
+        padding-left: 11% !important;
+    }
+}
+
+@media screen and  (min-width : 920px) and (max-width : 1199px) {
+
+    li {
+        padding : 0% !important;
+    }
+}
+
+@media screen and  (min-width : 768px) and (max-width : 919px) {
+
+    li {
+        font-size : 13.3px;
+        padding   : 0% !important;
+    }
+
+    .category {
+        clear      : left;
+        font-size  : 1.3em;
+        left       : 10%;
+        margin     : 2% auto !important;
+        min-height : 4em !important;
+        min-width  : 80% !important;
+        position   : relative;
+        width      : 100% !important;
+    }
+
+    h4 {
+        font-size : 22px !important;
+    }
+
+}
+
+@media screen and (min-width : 0px) and (max-width : 767.9px) {
+
+    li {
+        padding : 0% !important;
+    }
+
+    body {
+        font-size : 15.8px !important;
+    }
+
+    div.category {
+        clear     : left;
+        min-width : 94%;
+        width     : 100%;
+    }
+
+    .container {
+        width : 552px;
+    }
+}

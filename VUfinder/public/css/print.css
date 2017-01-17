@@ -1,0 +1,46 @@
+
+a,div.order_summery>input[type='submit'],
+div[class^="rectangle"],
+ul.menu,
+footer,
+head
+{display: none !important;}
+
+table tr th{
+    color:gray;
+}
+
+h2, input[type="submit"] {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.shipping_n_payment , .form-order-information {
+    width: 35%;
+    position: relative;
+    display: block;
+    min-height: 8em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.order_summery table, .payment_n_shipping .person_address {
+    margin: 0 auto;
+    min-height: 8em;
+    border: 1px solid #bbbbbb;
+    padding: 1em;
+    width: 100%;
+}
+
+input[type='submit']{display:none;}
+
+.order_summery td, .order_summery th {
+    padding: 0.2em !important;
+    color: gray;
+    margin: 1em !important;
+}
+
+* {
+    font-family: digital-7;
+}

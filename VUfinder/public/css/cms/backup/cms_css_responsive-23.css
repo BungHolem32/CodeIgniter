@@ -1,0 +1,743 @@
+/*html + body min Height*/
+html, body {
+    min-height: 100%;
+}
+
+/*general body*/
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.x_icon {
+    margin-top: 0.3%;
+    position: static;
+}
+
+/*div container Fluid*/
+div.container-fluid {
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* container */
+div.container {
+    border-radius: 0.5%;
+    box-sizing: border-box;
+    height: auto;
+    margin: 2% auto;
+    min-width: 86%;
+    padding-top: 1em;
+    position: relative;
+    width: 80%;
+}
+
+.lightbox {
+    background: white;
+    border: 0.3em solid red;
+    border-radius: 1em;
+    box-shadow: 0 0 4em 0.2em gray;
+    left: 35%;
+    padding: 2em;
+    position: fixed;
+    right: 35%;
+    top: 25%;
+    width: 30% !important;
+    z-index: 3;
+}
+
+/*div. content*/
+div.content {
+    margin-left: 1%;
+    margin-top: 3%;
+    z-index: 1;
+}
+
+div.menu_cms > ul > li > a {
+    color: white;
+    font-size: 1.2em !important;
+    text-decoration: none;
+    width: 10%;
+}
+
+/*------==========cms dashboard====---------*/
+div.content-cms > input[type='button'] {
+    background: transparent !important;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 2em;
+    margin-left: 9em;
+    margin-top: 2em;
+}
+
+/*cms-items*/
+div.cms-items {
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    top: 0;
+}
+
+div.cms-items > h3 {
+    font-size: 1.5em;
+    margin-left: 37%;
+}
+
+/*button new product*/
+div.cms-items > input {
+    background: transparent;
+    margin-left: 41em;
+}
+
+/*category wrapper */
+div.category {
+    cursor: pointer;
+    float: left;
+    margin: 3% 3.1%;
+    max-width: 24%;
+    min-height: 11em;
+    min-width: 27%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: all 1s ease;
+    z-index: 1;
+}
+
+/*category:hover*/
+div.category:hover {
+    background: #000000;
+    opacity: 0.95;
+    transform: scale(1.1);
+    align-items: center;
+}
+
+div.category > h4 {
+    font-size: 2em;
+}
+
+/*category li */
+div.category > ul > li {
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+}
+
+.edit-btn, .delete-btn {
+    font-size: 1.1em;
+    transition: all 100ms ease;
+    width: 3em;
+}
+
+a.edit-btn {
+    color: lightgreen !important;
+    margin-top: 2em;
+    position: relative;
+}
+
+a.create-btn {
+    color: #bb3300;
+    display: block;
+    font-size: 1.2em;
+}
+
+.delete-btn:hover {
+    color: red !important;
+    transform: scale(1.05);
+}
+
+/*input,label,textarea width*/
+input, label, textarea {
+    display: table;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.user_managment form label {
+    padding: 0 !important;
+}
+
+/*------------==========delete form=====-------*/
+div.delete-form-style [type='submit'],
+div.delete-form-style [type='button'],
+div.edit-category [type='submit'],
+div.editUser [type='submit'],
+div.addUser [type='submit'],
+div.delUser [type='submit'],
+.create_submit,
+a.select {
+    font-size: 1.4em;
+    width: 5em;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    background: transparent;
+    color: white;
+    margin-bottom: 1em;
+}
+
+a.select {
+    border: 2px solid #444444;
+    margin: 1em;
+}
+
+div.delete-form-style input[type='submit']:hover,
+div.delete-form-style input[type='button']:hover,
+div.edit-category [type='submit']:hover,
+div.editUser [type='submit']:hover,
+div.addUser [type='submit']:hover,
+div.delUser [type='submit']:hover,
+input.create_submit:hover,
+a.select:hover {
+    transform: scale(1.05);
+}
+
+div.edit_form-style.centered form select.select-box_product {
+    width: 15%;
+    height: 1.9em;
+    margin-top: -1.3em;
+}
+
+.description {
+    position: absolute;
+    width: 100px !important;
+}
+
+/*------=============order page==========----------*/
+li {
+    list-style: none;
+}
+
+div.orders-form-style > div {
+    display: inline;
+    padding: 1em;
+}
+
+/*order headers wrapper*/
+ul.header-titles-order {
+    border-radius: 0em;
+    font-size: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+ul.header-titles-order li:nth-of-type(2) {
+    left: -10%;
+}
+
+ul.header-titles-order li:nth-of-type(3) {
+    left: 0%;
+}
+
+ul.header-titles-order li:nth-of-type(5) {
+    left: 7%;
+}
+
+ul.header-titles-order li:nth-of-type(4) {
+    left: 2.4%;
+}
+
+/*headers style*/
+ul.header-titles-order > li {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 100%;
+}
+
+ul.header-titles-order li:first-of-type {
+    left: -12%;
+}
+
+.fixed-top {
+    background: #cccccc !important;
+    font-size: 1em !important;
+    position: fixed;
+    padding-top: 0.5em;
+    top: 0;
+    z-index: 3;
+    right: 0;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(4) {
+    left: -1.1%;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(2) {
+    left: -5.5%;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(5) {
+    left: -0.1%;
+}
+
+ul.header-titles-order.fixed-top li:nth-of-type(3) {
+    left: -0.8%;
+}
+
+ul.header-titles-order.fixed-top li:first-of-type {
+    left: -6.3%;
+}
+
+/*order-info */
+.user_order > ul {
+    margin-left: 25%;
+    min-height: 10em;
+    width: 70%;
+    transition: all 1s;
+}
+
+/*quantity tab*/
+span.qty {
+    left: 41.3%;
+    float: left;
+    width: 20px;
+}
+
+span.qty, span.price, span.subtotal {
+    margin-top: -1em;
+    text-align: left;
+}
+
+/*price tab*/
+span.subtotal {
+    left: 91.7%;
+}
+
+div.create_form-style > h3,
+div.edit_form-style > h3 {
+    padding: 1em;
+}
+
+div.create_form-style > form > div > h4,
+div.create_form-style > form > label > div > h4,
+div.edit_form-style > form > div > h4,
+div.edit_form-style > form > label > div > h4 {
+    border-bottom: 0.1em solid white;
+    color: red;
+    margin-left: 31.5em;
+    margin-top: 1em;
+    width: 10em;
+}
+
+div.create_form-style > form > div.upload,
+div.create_form-style > form > div.stock-info,
+div.create_form-style > form > div.product-basic-info,
+div.create_form-style > form > label,
+div.edit_form-style > form > div.upload,
+div.edit_form-style > form > div.stock-info,
+div.edit_form-style > form > div.product-basic-info,
+div.edit_form-style > form > label {
+    border: 2px solid #444444;
+    font-size: 1.3em;
+    margin-left: 1em;
+    min-height: 33em;
+}
+
+div.create_form-style > form > input[type='submit'],
+div.edit_form-style > form > input[type='submit'] {
+    background: transparent;
+    clear: both;
+    color: white;
+    font-size: 1.5em;
+    top: 0em;
+    transition: all 300ms ease;
+}
+
+div.create_form-style > form > input[type='submit']:hover,
+div.edit_form-style > form > input[type='submit']:hover {
+    border: 0.2em solid green;
+    font-weight: lighter;
+    max-height: 28em;
+}
+
+/*tiny mce textarea*/
+#mceu_13 {
+    clear: both;
+    top: 1em;
+    width: 30.5em;
+}
+
+.overlay {
+    background: #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+div.menu_cms > ul > li > a:hover {
+    border: 0.1em solid red;
+    color: red;
+}
+
+div.content-cms > input:hover {
+    border: 0.15em solid green;
+}
+
+div.content-cms > h2 {
+    display: block;
+    font-size: 1.8em;
+    margin-top: 2%;
+    padding-top: 1em;
+}
+
+.edit-btn:hover {
+    color: yellowgreen !important;
+    transform: scale(1.08);
+}
+
+a.create-btn:hover {
+    color: green;
+}
+
+
+div.delete-form-style > form > input[type='submit']:hover,
+div.delete-form-style > form > input[type='button']:hover {
+    transform: scale(1.07);
+}
+
+input[type='button'],
+form > select > option, form > select {
+    background: rgb(187, 187, 187);
+    border-radius: 0em;
+    box-shadow: -0.6px 1px 1px 1px white;
+    clear: both;
+    color: black;
+    display: table;
+    width: 100%;
+}
+
+.editUser select {
+    width: 32.6%;
+}
+
+.select-category {
+    display: block;
+    height: 1.5em;
+    min-width: 90px;
+    width: 143px;
+}
+
+.delete-form-style h3 {
+    margin: -0.8em;
+    color: orange !important;
+}
+
+.orders-form-style > h3 {
+    top: 3.5em;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+/*order-info wrapper*/
+div.user_order {
+    margin: 0em;
+}
+
+/*user-name tab*/
+span.user-name {
+    font-size: 2em;
+    width: 395px;
+    display: table !important;
+    position: relative;
+    top: 0.5em;
+    color: lightgreen;
+}
+
+/*product name tab*/
+.product-name {
+    display: table;
+    width: 160px;
+}
+
+span.price {
+    left: 65.1%;
+}
+
+/*feedback*/
+.feedback {
+    height: 50px;
+    width: 500px;
+}
+
+/*feedback massages*/
+span.feedback {
+    margin-left: 45em;
+}
+
+/*create product page */
+div.create_form-style,
+div.edit_form-style {
+    margin-top: -3em;
+    min-width: 50em;
+}
+
+div.create_form-style > h3 {
+    margin-top: 1.5em;
+}
+
+div.content-cms .add-category {
+    bottom: 30.6em;
+    position: absolute;
+    text-align: center !important;
+}
+
+/* create Category */
+.create-category, .delete-category, .edit-category {
+    border: 3px solid #444444;
+    box-sizing: border-box !important;
+    display: block;
+    margin: 0 4em 2em;
+    min-height: 9em;
+    min-width: 23%;
+    padding: 1em;
+    transition: all 1s;
+    width: 26%;
+}
+
+.create-category > h2, .delete-category > h2, .edit-category > h2, .editUser > h2, .addUser > h2, .delUser > h2 {
+    font-size: 1.8em;
+}
+
+.create-category:hover, .delete-category:hover, .edit-category:hover {
+    background: black;
+    opacity: 0.9;
+}
+
+.edit-category:hover, .delete-category:hover, .create-category:hover {
+    border: 1px solid red !important;
+    transform: scale(1.03);
+}
+
+form .gender, .gender [type='radio'], form .role, .gender [type='radio'] {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 0.7em;
+    text-align: center !important;
+}
+
+.gender, .role {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.content-cms .user_managment.addUser, .content-cms .user_managment.editUser, .user_managment.usersSummery, .delUser {
+    font-size: 1.2em;
+    margin: 0 2.7% 3%;
+    margin-bottom: 2em;
+    min-height: 7em;
+    min-width: 22%;
+    width: 27%;
+    color: lightgray;
+}
+
+.user_managment.usersSummery.title_font {
+    vertical-align: middle;
+}
+
+.user_managment.addUser,  .content-cms .user_managment.editUser {
+    float: left;
+}
+
+.user_managment.addUser.title_font:hover,
+.user_managment.editUser.title_font:hover,
+.user_managment.usersSummery:hover,
+.user_managment.delUser:hover,
+.user_managment.usersSummery table:hover {
+    background: black;
+    border-color: red;
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+.role input[type="radio"] {
+    display: inline;
+    margin-Left: 0.6EM;
+}
+
+.content-cms {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.content-cms .text-center {
+    margin: 1em 1em 1em 0;
+}
+
+.delete-form-style .product_found {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.user_managment.usersSummery.title_font td,  .user_managment.usersSummery.title_font th {
+    font-size: 1em;
+    padding: 5px 3.6%;
+}
+
+.userSummery table {
+    width: 100%;
+}
+
+.user_managment.usersSummery td {
+    font-size: 0.9em;
+    padding: 6% 0% 2%;
+}
+
+.user_managment.usersSummery th {
+    width: 10%;
+}
+
+.usersSummery table {
+    margin-top: 1.6em;
+}
+
+.delUser select {
+    color: black;
+    height: 1.8em;
+    margin: 0 auto;
+    min-width: 30%;
+    /* top: -6px; */
+    position: relative;
+    width: 40%;
+}
+
+span.centered.date {
+    display: block;
+    width: 57%;
+    margin-left: 30%;
+}
+
+div.delete-form-style table th, div.delete-form-style table td {
+    padding: 0.5em 1em;
+}
+
+div.delete-form-style table {
+    margin: 0 auto;
+    border: 3px solid #444444;
+}
+
+div.delete-form-style table:hover {
+    border-color: red;
+}
+
+.userList table {
+    border: 3px solid #444;
+    margin-bottom: 1.9em;
+    border-radius: 10px !important;
+    text-align: justify;
+    width: 51.4%;
+}
+
+.userList th, .userList td {
+    font-size: 1.3em;
+    padding: 4.7px;
+    width: 20%;
+}
+
+.userList table:hover {
+    transform: scale(1.2);
+    background: black;
+    border: 2px solid red;
+}
+
+.categoryTab td:nth-of-type(3) {
+    width: 5% !important;
+}
+
+.categoryTab td:nth-of-type(4) {
+    width: 53% !important;
+}
+
+.categoryTab td:nth-of-type(2) {
+    width: 14.2%;
+}
+
+.categoryTab td:nth-of-type(1) {
+    width: 1.6%;
+}
+
+.categoryTab th, .categoryTab td {
+    font-size: 1.1em;
+    padding: 0.4em;
+}
+
+.categoryTab th {
+    text-align: center !important;
+    width: 12.2%;
+}
+
+.categoryTab td:last-of-type {
+    width: 180%;
+}
+
+.categoryTab table {
+    width: 75%;
+    margin-bottom: 1.8em;
+    border-radius: 23px;
+    padding: 20px 1px 3px;
+}
+
+table:hover {
+    border: 3px solid red;
+    transform: scale(1.1);
+}
+
+@media screen and  (min-width: 1200px) and (max-width: 1920px) {
+    li {
+        padding: 1.8% !important;
+    }
+
+    ul.header-titles-order > li {
+        padding-left: 11% !important;
+    }
+}
+
+@media screen and  (min-width: 920px) and (max-width: 1199px) {
+    body {
+        padding: 0% !important;
+
+    }
+}
+
+@media screen and  (min-width: 768px) and (max-width: 919px) {
+    body {
+        font-size: 13.3px;
+        padding: 0% !important;
+    }
+
+    .category {
+        clear: left;
+        font-size: 1.3em;
+        left: 10%;
+        margin: 2% auto !important;
+        min-height: 4em !important;
+        min-width: 80% !important;
+        position: relative;
+        width: 100% !important;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767.9px) {
+    body {
+        font-size: 15.8px !important;
+    }
+
+    div.category {
+        clear: left;
+        min-width: 94%;
+        width: 100%;
+    }
+
+    .container {
+        width: 552px;
+    }
+}
+

@@ -1,0 +1,64 @@
+/*GENERAL LAYOUT*/
+
+/*body general*/
+body {
+    font-family: digital-7;
+    background: url("../../img/camrecorder.png") fixed;
+    background-size: 100%;
+    opacity: 1;
+}
+
+/* container */
+div.container {
+    margin-top: 5%;
+    border-radius: 0.2em;
+    color: white;
+    border: 0.1em solid black;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/*container hover*/
+div.container:hover,
+div.category:hover,
+.user_order>ul:hover {
+    border: 0.2em solid red;
+
+}
+
+
+/*STATISTIC PAGE*/
+
+/*menu titles*/
+div.container>div>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 2em;
+    text-align: center;
+    display: block;
+}
+
+/*menu hover*/
+div.container>div>a:hover {
+    color: darkgreen;
+    opacity: 1;
+}
+
+/*menu cms*/
+div.menu_cms > ul > li > a:hover {
+    border : 0.1em solid red;
+    color  : red;
+}
+
+/*PRODUCT MANAGEMENT*/
+
+/*create && delete form */
+div.create-category form, div.delete-category form {
+    margin-top: 0em;
+}
+
+/*create button*/
+a.create-btn:hover {
+    color : green;
+}

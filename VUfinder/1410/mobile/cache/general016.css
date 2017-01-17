@@ -1,0 +1,244 @@
+html,body,div,form,fieldset { margin:0; padding:0; border:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+
+body { 
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 12px;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding:8px; font-weight: bold; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
+
+p, label {
+	margin:0px;
+	padding:0px;
+}
+
+.mcmSelectBox {
+	background-repeat:no-repeat;
+	position:absolute;
+	width:120px;
+}
+
+.mcmInputText {
+	background-repeat:no-repeat;
+	position:absolute;
+	width:120px;
+	padding:1px;
+	border: 1px solid #7f9db9;
+	outline:none;
+}
+
+.mcmTextArea {
+	background-repeat:no-repeat;
+	position:absolute;
+	border: 1px solid #7f9db9;
+	overflow:auto;
+	resize: none;
+	outline:none;	
+}
+
+.mcmInputCB {
+	position:absolute;
+	margin:0;
+	padding:0;
+}
+
+.mcmInputRB {
+	position:absolute;
+	margin:0;
+	padding:0;
+}
+
+.mcmSendBT {
+	position:absolute;
+}
+
+.mcmLabelText {
+	position:absolute;
+	padding:1px 0;
+}
+
+.mcmFormReg {
+	position:absolute;
+}
+
+.mcmDivBox {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.mcmDisplayImageBox {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.mcmImageBox {
+	position:absolute;
+	display:block;
+}
+
+.mcmHtmlBox {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.mcmFlashBox {
+	position:absolute;
+}
+
+.mcmIframeBox {
+	position:absolute;
+	background-repeat:no-repeat;
+	border-width:0;
+}
+
+.mcmImgBox {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.mcmTextBox {
+	position:absolute;
+	background-repeat:no-repeat;
+	line-height:1;
+	border-width:0;
+}
+
+.mcmLabelBox {
+	position:absolute;
+	background-repeat:no-repeat;
+	line-height:1;
+	border-width:0;
+	display: block;
+}
+
+.mcmAButton {
+	background-repeat:no-repeat;
+    display:block;
+    padding:1px;
+    position:absolute;
+   	border-width:0;
+}
+
+.mcmFullBkImage {
+	position:absolute;
+	display:block;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+.mcmFullBkSpan {
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	padding:inherit;
+	text-decoration:inherit;
+}
+
+.mcmFlashObject {
+	width:100%;
+	height:100%;
+}
+
+#mcmPixel,#mcmAlertErrors {
+	position:absolute;
+	width:1px;
+	height:1px;
+	left: 0px;
+    top: 0px;
+	overflow: hidden;
+	display: block;
+}
+
+.mcmCarrousel {
+	direction:ltr;
+	position:absolute;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+
+.mcmCarrousel .mcmTabsHorizan {
+	position:absolute;
+	width:40000px;
+}
+
+.mcmCarrousel .mcmTabsHorizan div {
+	float:left;
+}
+
+.mcmCarrousel .mcmTabsVertical {
+	position:absolute;
+	clear:both;
+}
+
+.mcmCarrousel .mcmTabItems {
+	position:absolute;
+}
+
+.mcmTabsVertical img, .mcmTabsHorizan img, .mcmTabItems img {
+	display:block;
+}
+
+.mcmCarrouselButton {
+	background-repeat:no-repeat;
+	cursor:pointer;
+	display:block;
+	position:absolute;
+    padding:1px;
+    border-width:0;
+}
+
+.mcmCarrousel .mcmGalleryTabHolder{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.mcmCarrousel .mcmImageWrapper {
+	overflow:hidden;
+	float:left;
+}
+
+.mcmCarrousel .mcmSplitImageHolder {
+	position:relative;
+}
+
+.mcmCarrousel .mcmImageSplit {
+	position:absolute;
+	overflow:hidden;
+	z-index:0;
+}
+
+.mcmImageDisplay {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.mcmImageDisplay img{
+    display: block;
+}
+
+.mcmForm {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.mcmDisableGalleryBT {
+	display:none;
+}

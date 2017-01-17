@@ -1,0 +1,244 @@
+/*GENERAL LAYOUT SCREEN*/
+
+body {
+    overflow: hidden;
+}
+
+/*img + span*/
+.logo a img,
+footer span {
+    display: none;
+}
+/*preloader icon*/
+.se-pre-con{
+    left:44.2%;
+}
+
+/*scroll to top*/
+.scroll_to_top {
+    z-index: 30;
+    margin: 0 auto 4em;
+    right: 48.4%;
+}
+
+/*border menu on click*/
+.border{
+    border-bottom: 45px solid #777 !important;
+}
+
+
+/*(VIEW FINDER WRAPPER)*/
+div.rectangle-bottom-left, div.rectangle-top-left {
+    left: 6.3%;
+}
+
+div.rectangle-top-right, div.rectangle-bottom-right {
+    right: 7.4%;
+}
+
+div.rectangle-bottom-left, div.rectangle-bottom-right {
+    top: 76.8%;
+}
+
+div.rectangle-top-left, div.rectangle-top-right {
+    top: 6.9%;
+}
+
+.rectangle-top-left, .rectangle-bottom-left {
+    left: 5%;
+}
+
+/*button img*/
+.button img {
+    margin: 0 auto;
+    display: block;
+}
+
+/*button*/
+.button {
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+    text-align: center;
+}
+
+/*title*/
+h1.header_fonts.centered {
+    position: relative;
+    top: 1.1em;
+    margin: 0 auto;
+    font-size: 2.1em;
+}
+
+/*container wrapper layout*/
+.container.row {
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: none;
+    width: 91.6%;
+    margin: 2.8% auto;
+}
+
+/*a*/
+a {
+    opacity: 1 !important;
+    color: lightgreen !important;
+}
+
+/*camera style*/
+.eye_camera {
+    width: 15px;
+    height: 15px;
+    background-color: #777;
+    border-radius: 30px;
+    position: relative;
+    top: 1.2em;
+    display: block;
+    box-shadow: 0px 0px 2px 4px lightgray;
+}
+
+/*(PRODUCT PAGE)*/
+/*product wrapper*/
+.product-style {
+    width: 78% !important;
+    float: none !important;
+}
+
+/*button*/
+.products-btn > button, div.payment_n_shipping input[type='submit'] {
+    width: 55.3%;
+    min-width: 146px;
+    display: block;
+    margin: 10px auto;
+}
+
+/*product info tabs*/
+.tab_s, .tab_f, .tab_t {
+    width: 26%;
+}
+
+/*hide logo + text*/
+.logo>img,
+footer a span{
+    display: none;
+}
+
+.copyright {
+    position: absolute;
+    right: 5em;
+    bottom: 0;
+}
+
+/*(MENU TABLET)*/
+/*menu desktop*/
+ul.menu>li {
+    display: none !important;
+}
+
+/*h5 */
+.menu .button h5 {
+    text-align: center;
+}
+
+body ul.menu div.icon_mobile {
+    display: none !important;
+}
+
+/*nav bar tablet*/
+.tablet_nav_bar {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.tablet_nav_bar ul {
+    width: 100% !important;
+    text-align: center;
+    display: block;
+}
+
+/*nav bar link*/
+.tablet_nav_bar li {
+    float: left;
+    width: 10.2%;
+    margin: 0 6.2%;
+    font-size: 1.3em;
+    position: relative;
+    top: -3.4em;
+    display: block;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
+/*nav bar */
+div.tablet_nav_bar li:nth-of-type(4) {
+    margin-left: 7.9%;
+}
+
+/*dashboard*/
+a.tab.title_font.dashboard {
+    display: inline-block;
+}
+
+/*category wrapper*/
+a.category {
+    width: 40%;
+    margin: 2% 4%;
+    padding-top: 2.2%;
+    color: gray !important;
+}
+
+/*navbar dashboard tablet*/
+.tablet_navbar.dashboard_tablet {
+    width: 127px;
+}
+
+/*(CONTACT-US PAGE)*/
+
+div.contact_us-tmp textarea {
+    width: 90%;
+    height: 6em;
+    margin: 0 auto;
+}
+
+/*(CHECKOUT PAGE)*/
+.payment_info {
+    width: 32%;
+}
+
+.order_info {
+    width: 32.7%;
+}
+
+.headers,.oi {
+    min-height: 18em;
+}
+
+input.order {
+    width: 20% !important;
+}
+
+.checkout-tpl {
+    width: 80% !important;
+}
+
+
+/*(EDIT PAGE)*/
+/*edit form*/
+div.edit-tpl > form {
+    width: 40%;
+    margin: 1.7% 4.7%;
+}
+
+/*form-last*/
+div.edit-tpl > form:last-of-type {
+    margin-left: 30%;
+}
+
+
+
+a.category {
+    min-height: 19.2em;
+}

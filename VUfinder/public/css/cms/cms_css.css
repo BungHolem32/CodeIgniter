@@ -1,0 +1,277 @@
+/*body general*/
+body {
+    font-family     : digital-7;
+    background      : url("../../img/camrecorder.png") no-repeat fixed;
+    background-size : cover;
+    opacity         : 1;
+}
+
+/* container */
+div.container {
+    margin-top       : 5%;
+    border-radius    : 0.2em;
+    color            : white;
+    border           : 0.1em solid black;
+    background-color : rgba(0, 0, 0, 0.9);
+}
+
+div.create-category form, div.delete-category form {
+    margin-top : 0;
+}
+
+/*container hover*/
+div.container:hover,
+div.category:hover,
+.user_order > ul:hover {
+    border : 0.2em solid red;
+}
+
+div.user_order ul:hover {
+    background : black;
+    transform  : scale(1.02);
+}
+
+div.create_form-style > form > div.upload:hover, div.create_form-style > form > div.stock-info:hover, div.create_form-style > form > div.product-basic-info:hover, div.create_form-style > form > label:hover, div.edit_form-style > form > div.upload:hover, div.edit_form-style > form > div.stock-info:hover, div.edit_form-style > form > div.product-basic-info:hover, div.edit_form-style > form > label:hover, div.description:hover, .product-info:hover {
+    transform  : scale(1);
+    border     : 0.2em solid red;
+    background : #000000;
+    opacity    : 0.95;
+}
+
+/*menu titles*/
+div.container > div > a {
+    text-decoration : none;
+    color           : white;
+    font-size       : 1.3em;
+    padding         : 2em;
+    text-align      : center;
+    display         : block;
+}
+
+/*menu hover*/
+div.container > div > a:hover {
+    color   : darkgreen;
+    opacity : 1;
+}
+
+/*menu cms*/
+div.menu_cms > ul > li > a:hover {
+    border : 0.1em solid red;
+    color  : red;
+}
+
+a.create-btn:hover {
+    color : green;
+}
+
+div.delete-form-style [type='submit']:hover,
+div.delUser [type='submit']:hover,
+a.select:hover {
+    color : red;
+}
+
+div.edit-category [type='submit']:hover,
+div.addUser [type='submit']:hover,
+div.editUser [type='submit']:hover,
+input.create_submit:hover,
+div.delete-form-style input[type='button']:hover {
+    color : green;
+}
+
+input[type='button'],
+form > select > option, form > select {
+    clear   : both;
+    display : table;
+    margin  : 0 auto;
+}
+
+.visibility-tab {
+    display    : block;
+    text-align : center;
+}
+
+div.visibility-tab input[type="radio"] {
+    display : inline;
+}
+
+a.delete-btn {
+    color : burlywood !important;
+}
+
+div.category > ul {
+    text-align : center;
+}
+
+div.content-cms > input:hover {
+    border : 0.15em solid green;
+}
+
+/*button new product*/
+div.content-cms > h2 {
+    display    : block;
+    margin     : 0 auto;
+    text-align : center;
+}
+
+.delete-form-style > form > ul > li.centered.title_font > h3 {
+    color : red !important;
+}
+
+/*----------============ dashboard view=============----------- */
+div.cms-items {
+}
+
+/*ul cms-items*/
+div.cms-items > div > ul {
+    list-style : none;
+}
+
+/*li cms items*/
+div.cms-items > div > ul > li {
+    color : white;
+}
+
+/*a cms items*/
+div.cms-items > div > ul > li > a {
+    color           : lightgray;
+    text-decoration : none;
+}
+
+/*edit product link*/
+div.cms-items > div.category > ul.inner_product_menu > li > a.edit-btn:hover {
+    color : green;
+}
+
+/*delete product link*/
+div.cms-items > div > ul > li > a.delete-btn:hover {
+    color : red;
+}
+
+/*category wrapper */
+div.category {
+    border : 3px solid #444444;
+    color  : white;
+}
+
+/*category:hover*/
+div.category:hover {
+    color : white;
+}
+
+/**/
+div.category > ul > li {
+    color : white;
+}
+
+div.delete-form-style > form > h3 {
+    color : white;
+}
+
+div.delete-form-style > form > input[type='submit'], div.delete-form-style > form > input[type='button'], a.select {
+    background : transparent;
+    color      : white;
+    transition : all 1s ease;
+}
+
+div.delete-form-style > form > input[type='submit']:hover {
+    color  : lightcoral;
+    border : 0.3em solid lightcoral;
+}
+
+div.delete-form-style > form > input[type='button']:hover {
+    color  : lawngreen;
+    border : 0.3em solid green;
+}
+
+/*noinspection ALL*/
+
+.disable-class {
+    color      : green;
+    background : url(..\..\img\V.png) center;
+}
+
+/*------=============order page==========----------*/
+
+/*order headers wrapper*/
+ul.header-titles-order {
+    color       : #000000;
+    font-weight : bold;
+    background  : #cccccc !important;
+}
+
+/*order-info */
+.user_order > ul {
+    border        : 3px solid #444444;
+    transition    : all 100ms ease;
+    border-radius : 1em;
+    font-size     : 1.1em;
+}
+
+div.orders-form-style .flash {
+    color : white;
+}
+
+/*input  +   textArea*/
+input, textarea {
+    color : black;
+}
+
+/*general ul */
+ul {
+    margin        : 0 auto;
+    padding-left  : 3%;
+    padding-right : 3%;
+    text-align    : center;
+}
+
+/*select form*/
+form > select > option, form > select {
+    color : black;
+}
+
+/*feedback*/
+.feedback {
+    color      : red;
+    background : white;
+}
+
+/*error massages*/
+.error_val,
+.error_val_edit,
+.error_val_delete {
+    color      : rgb(255, 232, 0);
+    text-align : center;
+}
+
+div.edit_form-style .error_val {
+    position : relative;
+    top      : 2em;
+}
+
+input[type='image'] {
+    clear : both;
+}
+
+/*create page */
+div.edit_form-style > form > div.upload > img {
+    background : transparent;
+    width      : 9em;
+}
+
+div.edit_form-style > form > div.upload > .minified_pic {
+    display  : block;
+    padding  : 0.3em;
+    width    : 6em !important;
+    position : relative;
+    margin   : 0 auto;
+    top      : 0.9em;
+}
+
+.content-cms h1.title_font.txt-center {
+    font-size : 30px;
+}
+
+i.x_icon.fa.fa-times.fa-lg:hover {
+    left : 97.7%;
+}
+
